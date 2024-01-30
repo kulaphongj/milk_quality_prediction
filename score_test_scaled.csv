@@ -1,0 +1,9 @@
+﻿model,score_cv,score_train,score_test,best_params,dataprep
+AdaBoost,0.9176147422285353,0.9175430900483531,0.9033860438232165,"{'learning_rate': 0.01, 'n_estimators': 100}",scaled
+K-Nearest Neighbors,0.998962417807806,1.0,0.9944921644482329,"{'n_neighbors': 21, 'p': 1, 'weights': 'distance'}",scaled
+Linear Discriminant Analysis,0.7506897347919901,0.7286725183175845,0.7015105954526654,"{'shrinkage': None, 'solver': 'svd'}",scaled
+Quadratic Discriminant Analysis,0.9400780318567123,0.9389471385415183,0.9282735629463054,{'reg_param': 0.010101010101010102},scaled
+Logistic Regression,0.8519325420195587,0.8483359183097594,0.8391550787119743,"{'C': 10, 'max_iter': 50, 'penalty': 'l1', 'solver': 'liblinear'}",scaled
+NaiveBayes,0.9258695130856782,0.9319917618677346,0.9162579869379671,{'var_smoothing': 0.1},scaled
+Random Forest,0.998962417807806,1.0,0.9944921644482329,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}",scaled
+Support Vector Machine,0.9965495639900095,1.0,0.9944921644482329,"{'C': 1, 'gamma': 1, 'kernel': 'poly'}",scaled
