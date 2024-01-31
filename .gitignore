@@ -1,3 +1,4 @@
+*.xlsx
 # notebook
 .ipynb_checkpoints
 
