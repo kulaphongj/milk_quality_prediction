@@ -1,0 +1,9 @@
+﻿model,score_cv,score_train,score_test,best_params,dataprep
+AdaBoost,0.9431729317671922,0.9759549693132324,0.9751312944084027,"{'learning_rate': 0.1, 'n_estimators': 50}",scaled_pca93
+K-Nearest Neighbors,0.998962417807806,1.0,0.9891990455409664,"{'n_neighbors': 33, 'p': 2, 'weights': 'distance'}",scaled_pca93
+Linear Discriminant Analysis,0.7367450024758481,0.7142513123231856,0.6935845187246104,"{'shrinkage': 'auto', 'solver': 'lsqr'}",scaled_pca93
+Quadratic Discriminant Analysis,0.9834806822137139,0.9937451895441393,0.9864657518383417,{'reg_param': 0.0},scaled_pca93
+Logistic Regression,0.7999859178963981,0.7987742440105531,0.7483709645474351,"{'C': 0.001, 'max_iter': 50, 'penalty': None, 'solver': 'saga'}",scaled_pca93
+NaiveBayes,0.8991985627886834,0.8898799279172108,0.8648456913203688,{'var_smoothing': 0.001},scaled_pca93
+Random Forest,0.997913000931051,1.0,0.9947728876933937,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}",scaled_pca93
+Support Vector Machine,0.9965495639900095,1.0,0.9944921644482329,"{'C': 1, 'gamma': 1, 'kernel': 'poly'}",scaled_pca93
